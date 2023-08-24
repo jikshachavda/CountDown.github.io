@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+:root {
+    --background-color: black;
+    --color: white;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* background-color: var(--background-color); */
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    color: var(--color);
+}
+
+.continer {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Countdown {
+    font-size: 4rem;
+    text-transform: uppercase;
+    box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.4);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.clock {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #131419;
+    text-align: center;
+    padding: 0 30px;
+    margin: 3rem 0;
+    border-radius: 2.4rem;
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.05),
+        3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Time {
+    font-size: 3.6rem;
+    font-weight: 600;
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: .7rem 1rem;
+}
